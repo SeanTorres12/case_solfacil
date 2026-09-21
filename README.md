@@ -35,7 +35,7 @@ O dataset (`vgsales.csv`, 72 linhas) está versionado neste repositório em
 célula do notebook a partir da URL raw do GitHub — não é preciso fazer upload manual:
 
 ```python
-url = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/data/vgsales.csv"
+url = "https://raw.githubusercontent.com/SeanTorres12/case_solfacil/refs/heads/main/data/vgsales.csv"
 df = pd.read_csv(url)
 ```
 
@@ -58,3 +58,19 @@ df = pd.read_csv(url)
 - Gráfico de barras com o top 5 de gêneros por vendas
 - Gráfico de linha com jogos lançados por ano
 - Conclusão com os principais insights encontrados
+
+## Conclusão
+
+- **Shooter** é o gênero que mais vendeu globalmente, com uma vantagem de mais de
+  25 milhões de unidades sobre o segundo colocado — a maior diferença entre todos
+  os itens do top 5, que entre si têm diferenças bem menores.
+
+- O número de **lançamentos** caiu em 2019 e voltou a subir em 2020. Em um cenário
+  real, esse padrão coincidiria com o período de lockdown, que provavelmente também
+  teria elevado o volume de vendas.
+
+- O **PC** é a plataforma dominante, com mais do que o dobro de jogos lançados em
+  relação ao segundo colocado (PS4). Isso provavelmente reflete fatores do mundo
+  real: jogos mais baratos, catálogo maior (incluindo "exclusivos" de outras
+  plataformas) e o fato de o PC servir a múltiplos propósitos além de jogos —
+  como trabalho e estudo.
