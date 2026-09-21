@@ -17,6 +17,13 @@ Google Colab.
 Não é necessário instalar nada nem baixar arquivos manualmente — o notebook já
 carrega os dados e as bibliotecas automaticamente na primeira célula.
 
+> **Observações:**
+> - É necessário estar logado em uma conta Google para executar o notebook no Colab.
+> - Ao abrir, o Colab pode exibir um aviso informando que "este notebook não foi
+>   criado pelo Google". Isso é esperado e normal para qualquer notebook hospedado
+>   fora do Google Drive/GitHub oficial — basta clicar em **"Executar assim mesmo"**
+>   para prosseguir.
+
 ## Dependências
 
 Todas as bibliotecas usadas (`pandas`, `matplotlib`) já vêm pré-instaladas no
